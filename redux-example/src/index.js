@@ -5,18 +5,19 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
+import { counterReducer } from './reducers/counterReducer';
 
 //Redux exempel
 
 //Reducers - Uppdaterar state i store
-const counterReducer = (state = 0, action) => {
-  switch(action.type) {
-    case 'INCREMENT':
-      return state + action.payload;
-    default:
-      return state;
-  }
-}
+// const counterReducer = (state = 0, action) => {
+//   switch(action.type) {
+//     case 'INCREMENT':
+//       return state + action.payload;
+//     default:
+//       return state;
+//   }
+// }
 
 //Store - Innehåller state
 const store = createStore(
@@ -24,21 +25,21 @@ const store = createStore(
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
 
-//Actions - Bestämmer vad som ska uppdateras i state
-const increment = (count) => {
-  return {
-    type: 'INCREMENT',
-    payload: count
-  }
-}
+// //Actions - Bestämmer vad som ska uppdateras i state
+// const increment = (count) => {
+//   return {
+//     type: 'INCREMENT',
+//     payload: count
+//   }
+// }
 
-//Dispatch - Triggar en action från en React komponent
-store.dispatch(increment(20));
-store.dispatch(increment(20));
+// //Dispatch - Triggar en action från en React komponent
+// store.dispatch(increment(20));
+// store.dispatch(increment(20));
 
 ReactDOM.render(
   <React.StrictMode>
-    <Provider store={store} >
+    <Provider store={ store } >
       <App />
     </Provider>
   </React.StrictMode>,
