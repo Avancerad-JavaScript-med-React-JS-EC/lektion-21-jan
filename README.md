@@ -19,7 +19,7 @@ Redux devtools: https://github.com/zalmoxisus/redux-devtools-extension
 
 ## Inspelningar
 
-Förmiddag: 
+Förmiddag: https://web.microsoftstream.com/video/761aef7e-f23f-479a-a736-5ccc4022d2a7
 
 Eftermiddag: 
 
