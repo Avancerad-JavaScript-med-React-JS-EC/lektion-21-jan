@@ -6,12 +6,15 @@ Skapa ett nytt projekt med `npx create-react-app mappnamn`. Efter skriv `cd mapp
 
 ## Videor
 
+Genomgång: https://www.youtube.com/watch?v=CVpUuw9XSjY
 
 ## Artiklar
 
 **Redux**
 
 Dokumentation: https://redux.js.org/introduction/getting-started
+
+Bra genomgång: https://redux.js.org/tutorials/essentials/part-2-app-structure#component-state-and-forms
 
 Tutorial: https://daveceddia.com/redux-tutorial/
 
@@ -21,7 +24,7 @@ Redux devtools: https://github.com/zalmoxisus/redux-devtools-extension
 
 Förmiddag: https://web.microsoftstream.com/video/761aef7e-f23f-479a-a736-5ccc4022d2a7
 
-Eftermiddag: 
+Eftermiddag: https://web.microsoftstream.com/video/c4ffe728-d780-4d8e-af2c-8a076417a12a
 
 ## Tidigare lektioner
 
