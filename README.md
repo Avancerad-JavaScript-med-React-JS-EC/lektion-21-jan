@@ -2,7 +2,7 @@
 
 ## Övningar
 
-Skapa ett nytt projekt med create-react-app. Efter kör `npm install redux react-redux --save` i terminalen i ditt nya projekt. Skapa en Redux store och använd exempelkoden som referens. Prova sedan att lägga till en decrement action och som case i din reducer.
+Skapa ett nytt projekt med `npx create-react-app mappnamn`. Efter skriv `cd mappnamn på ditt projekt` och sedan `npm install redux react-redux --save` i terminalen i ditt nya projekt. Skapa en Redux store och använd exempelkoden som referens. Prova sedan att lägga till en decrement action och som case i din reducer.
 
 ## Videor
 
